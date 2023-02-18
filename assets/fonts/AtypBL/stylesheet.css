@@ -1,0 +1,225 @@
+@font-face {
+    font-family: 'Atyp BL Display';
+    src: url('AtypBLDisplay-BoldItalic.woff2') format('woff2'),
+        url('AtypBLDisplay-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Atyp BL';
+    src: url('AtypBL.woff2') format('woff2'),
+        url('AtypBL.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Atyp BL Display';
+    src: url('AtypBLDisplay-Bold.woff2') format('woff2'),
+        url('AtypBLDisplay-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Atyp BL Display';
+    src: url('AtypBLDisplay-LightItalic.woff2') format('woff2'),
+        url('AtypBLDisplay-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Atyp BL Display';
+    src: url('AtypBLDisplay-Medium.woff2') format('woff2'),
+        url('AtypBLDisplay-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Atyp BL Display';
+    src: url('AtypBLDisplay-Light.woff2') format('woff2'),
+        url('AtypBLDisplay-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Atyp BL Display';
+    src: url('AtypBLDisplay-Italic.woff2') format('woff2'),
+        url('AtypBLDisplay-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Atyp BL Display';
+    src: url('AtypBLDisplay-MediumItalic.woff2') format('woff2'),
+        url('AtypBLDisplay-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Atyp BL Display';
+    src: url('AtypBLDisplay-Regular.woff2') format('woff2'),
+        url('AtypBLDisplay-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Atyp BL Display';
+    src: url('AtypBLDisplay-Semibold.woff2') format('woff2'),
+        url('AtypBLDisplay-Semibold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Atyp BL Text';
+    src: url('AtypBLText-BoldItalic.woff2') format('woff2'),
+        url('AtypBLText-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Atyp BL Display';
+    src: url('AtypBLDisplay-Thin.woff2') format('woff2'),
+        url('AtypBLDisplay-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Atyp BL Text';
+    src: url('AtypBLText-Bold.woff2') format('woff2'),
+        url('AtypBLText-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Atyp BL Display';
+    src: url('AtypBLDisplay-ThinItalic.woff2') format('woff2'),
+        url('AtypBLDisplay-ThinItalic.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Atyp BL Display';
+    src: url('AtypBLDisplay-SemiboldItalic.woff2') format('woff2'),
+        url('AtypBLDisplay-SemiboldItalic.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Atyp BL Text';
+    src: url('AtypBLText-Light.woff2') format('woff2'),
+        url('AtypBLText-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Atyp BL Text';
+    src: url('AtypBLText-LightItalic.woff2') format('woff2'),
+        url('AtypBLText-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Atyp BL Text';
+    src: url('AtypBLText-Italic.woff2') format('woff2'),
+        url('AtypBLText-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Atyp BL Text';
+    src: url('AtypBLText-Regular.woff2') format('woff2'),
+        url('AtypBLText-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Atyp BL Text';
+    src: url('AtypBLText-Medium.woff2') format('woff2'),
+        url('AtypBLText-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Atyp BL Text';
+    src: url('AtypBLText-Semibold.woff2') format('woff2'),
+        url('AtypBLText-Semibold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Atyp BL Text';
+    src: url('AtypBLText-MediumItalic.woff2') format('woff2'),
+        url('AtypBLText-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Atyp BL Text';
+    src: url('AtypBLText-SemiboldItalic.woff2') format('woff2'),
+        url('AtypBLText-SemiboldItalic.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Atyp BL Text';
+    src: url('AtypBLText-Thin.woff2') format('woff2'),
+        url('AtypBLText-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Atyp BL Text';
+    src: url('AtypBLText-ThinItalic.woff2') format('woff2'),
+        url('AtypBLText-ThinItalic.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+

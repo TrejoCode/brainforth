@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="es-MX">
+  <head>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="css/owlcarousel/owl.carousel.min.css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="css/owlcarousel/owl.theme.default.min.css"
+      media="all"
+    />
+
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="css/brainforth.css?v1.3"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      media="all"
+    />
+    <meta charset="UTF-8" />
+    <title>Brainforth | Together Forward</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body class="flex flex-row justify-center">
+    <div class="max-container">
+      <!-- Header -->
+      <header class="w-full flex justify-center bg-white py-4 px-4 lg:px-8">
+        <div class="lg:container w-full flex flex-row">
+          <a href="./index.html" role="img" class="w-auto">
+            <img
+              src="./assets/imgs/logo-brainforth.svg"
+              alt="Brainforth logo"
+            />
+          </a>
+          <nav class="w-full flex justify-end items-center">
+            <ul
+              class="hidden lg:flex flex-row items-center gap-x-5 font-medium"
+            >
+              <li>
+                <a href="index.html" class="text-lg hover-primary">Home</a>
+              </li>
+              <li><a href="#" class="text-lg hover-primary">Lorem</a></li>
+              <li><a href="#" class="text-lg hover-primary">Ipsum</a></li>
+              <li>
+                <a href="#" class="text-lg hover-primary">Dolor sit amet</a>
+              </li>
+              <li>
+                <a href="#" class="text-lg hover-primary">Veritas</a>
+              </li>
+              <li>
+                <a href="#" class="text-lg hover-primary">Carpe diem</a>
+              </li>
+            </ul>
+            <button type="button" class="lg:hidden">
+              <i class="fas fa-bars text-3xl text-black text-center"></i>
+            </button>
+          </nav>
+        </div>
+      </header>
+
+      <!-- Main -->
+      <main>
+        <!-- Fullscreen video -->
+        <div class="relative">
+          <div
+            class="hidden lg:flex absolute top-[64%] w-full justify-center z-10"
+          >
+            <a
+              href="#main-container"
+              class="text-white font-cormorant text-[1.375rem] tracking-[0.5rem] flex flex-col hover-primary"
+            >
+              <i
+                class="fas fa-arrow-down text-white text-center text-sm mb-2"
+              ></i>
+              <span class="font-medium">SEGUIR NAVEGANDO</span>
+            </a>
+          </div>
+
+          <div style="padding: 56% 0 0 0; position: relative">
+            <iframe
+              src="https://player.vimeo.com/video/594937005?autoplay=0&loop=1&badge=0&autopause=0"
+              frameborder="0"
+              allow="autoplay; fullscreen; picture-in-picture"
+              allowfullscreen
+              style="
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+              "
+              title="Interceramic"
+            ></iframe>
+          </div>
+          <script async src="https://player.vimeo.com/api/player.js"></script>
+        </div>
+
+        <!-- Manifest -->
+        <div
+          class="w-full flex flex-row justify-center relative manifest-bg"
+          id="main-container"
+        >
+          <div class="lg:container flex flex-row py-16">
+            <div class="w-1/5 lg:w-2/5 flex flex-row justify-center">
+              <img
+                src="assets/imgs/home/home-manifiesto.png"
+                alt="Mainifiesto"
+                class="flex w-full lg:w-[85%] object-contain"
+              />
+            </div>
+            <div class="w-4/5">
+              <div class="flex flex-col ml-0 lg:ml-16">
+                <h2
+                  class="hidden lg:block text-5xl tracking-[1.5rem] text-[#817a6f] font-semibold"
+                >
+                  MANIFIESTO
+                </h2>
+                <h2
+                  class="block lg:hidden text-2xl tracking-[1rem] lg:tracking-[1.5rem] text-[#817a6f] font-semibold"
+                >
+                  <span class="ml-4">MANI</span>
+                  <span class="font-atyp-bl -ml-8">-</span>
+                  <span class="ml-16">FIESTO</span>
+                </h2>
+                <div class="flex flex-col w-2/3 ml-16 mt-6">
+                  <p class="text-sm lg:text-base font-medium">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Vivamus venenatis, nisl condimentum fringilla consectetur,
+                    lorem purus venenatis ante, eget efficitur odio arcu non
+                    tortor. Quisque elementum nulla convallis purus
+                    pellentesque, non consequat nulla commodo.
+                  </p>
+                  <p class="my-4 text-sm lg:text-base font-medium">
+                    Aenean placerat lorem nec tortor aliquet aliquet. Nullam at
+                    neque quis nibh pharetra auctor sit amet lobortis nisi.
+                    Proin rhoncus eros pulvinar tristique congue. Mauris mattis
+                    in nunc a fringilla. Praesent nibh velit, suscipit sit amet
+                    fermentum in, bibendum ornare erat.
+                  </p>
+                  <strong class="mb-4 text-sm lg:text-base"
+                    >Brainforth. Together Forward.</strong
+                  >
+                  <figure>
+                    <img
+                      src="assets/imgs/logo-brainforth.svg"
+                      alt="Brainforth logo"
+                      class="h-7"
+                    />
+                  </figure>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="absolute bottom-4 right-8 lg:bottom-8 lg:right-16 flex flex-row items-center"
+          >
+            <img
+              src="assets/imgs/share-icon.png"
+              alt="Icono de compartir"
+              class="mr-1 w-7 h-7"
+            />
+            <span class="text-lg">Compartir</span>
+          </div>
+        </div>
+
+        <!-- Slider -->
+        <!-- <div class="owl-carousel owl-theme relative">
+          <div class="item w-full">
+            <img
+              src="assets/imgs/home/slides/slide1.jpg"
+              alt="Avión lufthnansa"
+              class="object-cover object-center w-full h-[36.5rem]"
+            />
+          </div>
+          <div class="item w-full">
+            <img
+              src="assets/imgs/home/slides/slide2.jpg"
+              alt="Envases diversos"
+              class="object-cover object-center w-full h-[36.5rem]"
+            />
+          </div>
+          <div class="item w-full">
+            <img
+              src="assets/imgs/home/slides/slide3.jpg"
+              alt="Torre"
+              class="object-cover object-center w-full h-[36.5rem]"
+            />
+          </div>
+          <div class="item w-full">
+            <img
+              src="assets/imgs/home/slides/slide4.jpg"
+              alt="Brújula"
+              class="object-cover object-center w-full h-[36.5rem]"
+            />
+          </div>
+          <div class="item w-full">
+            <img
+              src="assets/imgs/home/slides/slide5.jpg"
+              alt="Kodak Gold 200"
+              class="object-cover object-center w-full h-[36.5rem]"
+            />
+          </div>
+        </div> -->
+
+        <!-- About us / Gallery -->
+        <div class="flex flex-col mb-16">
+          <div class="w-full flex flex-col justify-center items-center my-16">
+            <h2
+              class="w-3/4 lg:w-1/2 text-[1.75rem] lg:text-[2.5rem] text-center mb-8 font-semibold italic"
+            >
+              galeria
+              <span
+                class="text-[1.75rem] lg:text-[2.5rem] not-italic font-atyp-bl font-semibold"
+                >| CONOCENOS</span
+              >
+            </h2>
+            <p class="w-5/6 lg:w-2/4 text-center text-sm lg:text-base">
+              Mauris imperdiet diam sed erat auctor, faucibus congue odio
+              laoreet. Integer efficitur, orci eget egestas mattis, odio libero
+              malesuada orci, in varius sem quam id nibh. Interdum et malesuada
+              fames ac ante ipsum primis in faucibus. Integer id metus
+              efficitur, consequat justo a, suscipit diam. Maecenas in ligula
+              felis. Nullam in mi varius, sagittis velit eu, ultrices ligula.
+            </p>
+          </div>
+          <div class="w-full flex justify-center">
+            <div class="container px-4 2xl:px-0 flex flex-col">
+              <div class="flex flex-row gap-x-4 h-[37.5rem]">
+                <div class="w-2/6">
+                  <img
+                    class="w-full object-cover object-center h-[37.5rem]"
+                    src="assets/imgs/interiores-tendencias/interiores_dramaticos/Img1.jpg"
+                  />
+                </div>
+                <div class="w-4/6 flex flex-col">
+                  <img
+                    class="w-full object-cover object-center h-[17.75rem]"
+                    src="assets/imgs/interiores-tendencias/interiores_dramaticos/Img2.jpg"
+                  />
+                  <img
+                    class="w-full object-cover object-center h-[18.75rem] mt-4"
+                    src="assets/imgs/interiores-tendencias/interiores_dramaticos/Img3.jpg"
+                  />
+                </div>
+              </div>
+              <div class="flex flex-col sm:flex-row gap-x-4 mt-4">
+                <div class="w-full sm:w-1/2 mb-4 sm:mb-0">
+                  <img
+                    src="assets/imgs/interiores-tendencias/interiores_dramaticos/Img4.jpg"
+                    class="w-full object-cover object-center h-[17.75rem]"
+                  />
+                </div>
+                <div class="w-full sm:w-1/2">
+                  <img
+                    src="assets/imgs/interiores-tendencias/interiores_dramaticos/Img5.jpg"
+                    class="w-full object-cover object-center h-[17.75rem]"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Call to actions -->
+        <div class="w-full">
+          <img
+            src="assets/imgs/home/cta-footer.png"
+            class="hidden lg:flex lg:w-full"
+          />
+          <img
+            src="assets/imgs/home/cta_mobile.png"
+            class="flex w-full lg:hidden"
+          />
+        </div>
+
+        <!-- Contact -->
+        <div
+          class="w-full flex flex-row flex-wrap bg-[#efefef] relative pt-8 xl:pt-4 pb-8 items-center"
+        >
+          <div class="w-2/5 lg:w-1/4">
+            <img src="assets/imgs/home/img-footer.png" alt="Diseño artístico" />
+          </div>
+          <div class="w-3/5 lg:w-1/4 flex flex-row">
+            <h3
+              class="hidden lg:flex lg:flex-col text-5xl xl:text-7xl font-semibold"
+            >
+              <span class="ml-4 xl:ml-8 mb-2">CON</span>
+              <span class="ml-12 xl:ml-24 mb-2">TAC</span>
+              <span class="ml-28 xl:ml-48">TO.</span>
+            </h3>
+            <h3 class="flex flex-col text-4xl font-semibold lg:hidden">
+              <span class="ml-8">CON - </span>
+              <span class="ml-16">TACTO.</span>
+            </h3>
+          </div>
+          <div class="w-full mt-8 lg:mt-0 lg:w-2/4">
+            <form class="w-full" id="contact-form">
+              <p class="text-sm px-4 lg:px-0 lg:text-base mb-8">
+                Contáctanos para obtener atención personalizada, déjanos tus
+                dudas o comentarios.
+              </p>
+              <div class="flex flex-col ml-4 lg:ml-0 mr-4">
+                <input
+                  type="text"
+                  name="name"
+                  placeholder="Nombre"
+                  minlength="4"
+                  maxlength="128"
+                  required
+                  class="placeholder:text-[#454545] border-b border-[#454545] bg-transparent text-base mb-4 px-1"
+                />
+                <input
+                  type="email"
+                  name="email"
+                  placeholder="Correo eletrónico"
+                  minlength="6"
+                  maxlength="128"
+                  required
+                  class="placeholder:text-[#454545] border-b border-[#454545] bg-transparent text-base mb-4 px-1"
+                />
+                <input
+                  type="text"
+                  name="message"
+                  placeholder="Mensaje"
+                  minlength="16"
+                  maxlength="256"
+                  required
+                  class="placeholder:text-[#454545] border-b border-[#454545] bg-transparent text-base mb-4 px-1"
+                />
+                <div class="w-full flex justify-end">
+                  <button
+                    type="submit"
+                    class="bg-black text-white py-4 px-8 font-atyp-bl font-medium hover-primary"
+                  >
+                    ENVIAR
+                  </button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </main>
+
+      <!-- Footer -->
+      <footer class="w-full flex flex-col">
+        <div class="flex justify-center py-16">
+          <div class="container flex flex-col lg:flex-row">
+            <div
+              class="flex flex-col space-y-12 lg:space-y-0 lg:flex-row w-full lg:w-3/6 justify-around px-4 lg:px-0"
+            >
+              <div class="flex flex-col">
+                <h4 class="text-white text-xl mb-2">CONTACTO</h4>
+                <a
+                  href="mailto:contacto@brainforth.com"
+                  class="text-white hover-primary"
+                  >contacto@brainforth.com</a
+                >
+              </div>
+              <div class="flex flex-col">
+                <h4 class="text-white text-xl mb-2">SIGUENOS</h4>
+                <div class="flex flex-row gap-x-2">
+                  <a
+                    href="https://www.facebook.com/brainforth"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    role="img"
+                    ><img
+                      src="assets/imgs/rrss/fb.png"
+                      alt="Facebook icon"
+                      class="w-7 h-7"
+                  /></a>
+                  <a
+                    role="img"
+                    href="https://www.instagram.com/brainforth/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    ><img
+                      src="assets/imgs/rrss/ins.png"
+                      alt="Instagram icon"
+                      class="w-7 h-7"
+                  /></a>
+                  <a
+                    role="img"
+                    href="https://twitter.com/brainforthMX"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    ><img
+                      src="assets/imgs/rrss/tw.png"
+                      alt="Twitter icon"
+                      class="w-7 h-7"
+                  /></a>
+                </div>
+              </div>
+              <div class="flex flex-col">
+                <h4 class="text-white text-xl mb-2">OTROS LINKS</h4>
+                <ul>
+                  <li>
+                    <a
+                      href="#"
+                      target="_blank"
+                      class="text-white hover-primary text-base"
+                      rel="noopener noreferrer"
+                      >Link 1</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      target="_blank"
+                      class="text-white hover-primary text-base"
+                      rel="noopener noreferrer"
+                      >Link 2</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      target="_blank"
+                      class="text-white hover-primary text-base"
+                      rel="noopener noreferrer"
+                      >Link 3</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      target="_blank"
+                      class="text-white hover-primary text-base"
+                      rel="noopener noreferrer"
+                      >Link 4</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div
+              class="w-full lg:w-3/6 flex flex-col items-center lg:items-start mt-16 lg:mt-0 lg:pl-32 px-4 lg:px-0"
+            >
+              <h4 class="text-white text-xl mb-2">CONOCE MÁS EN:</h4>
+              <a
+                href="https://www.brainforth.com/"
+                class="text-white hover-primary"
+                >www.brainforth.com</a
+              >
+              <a href="https://www.brainforth.com/" role="img">
+                <img src="assets/imgs/logo-brainforth.svg" alt="Brainforth" />
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="flex flex-row bg-white">
+          <p class="text-center w-full pt-6 pb-4 text-sm">
+            Brainforth © 2021. Todos los derechos reservados.
+          </p>
+        </div>
+      </footer>
+    </div>
+
+    <script src="./js/jquery-3.2.1.min.js"></script>
+    <script src="js/owl.carousel.min.js" type="text/javascript"></script>
+    <script src="js/brainforth.js" type="text/javascript"></script>
+  </body>
+</html>

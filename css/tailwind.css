@@ -1,0 +1,315 @@
+@tailwind base;
+@tailwind components;
+
+/**
+ * 0. Fonts y etiquetas
+ **/
+@font-face {
+  font-family: "Atyp BL";
+  src: url("../assets/fonts/AtypBL/AtypBL.woff2") format("woff2"),
+    url("../assets/fonts/AtypBL/AtypBL.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Atyp BL";
+  src: url("../assets/fonts/AtypBL/AtypBLDisplay-Medium.woff2") format("woff2"),
+    url("../assets/fonts/AtypBL/AtypBLDisplay-Medium.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Atyp BL Display";
+  src: url("../assets/fonts/AtypBL/AtypBLDisplay-Medium.woff2") format("woff2"),
+    url("../assets/fonts/AtypBL/AtypBLDisplay-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Cormorant";
+  src: url("../assets/fonts/CormorantFont/Cormorant-Bold.woff2") format("woff2"),
+    url("../assets/fonts/CormorantFont/Cormorant-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Cormorant";
+  src: url("../assets/fonts/CormorantFont/Cormorant-BoldItalic.woff2")
+      format("woff2"),
+    url("../assets/fonts/CormorantFont/Cormorant-BoldItalic.woff")
+      format("woff");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Cormorant";
+  src: url("../assets/fonts/CormorantFont/Cormorant-Regular.woff2")
+      format("woff2"),
+    url("../assets/fonts/CormorantFont/Cormorant-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Cormorant";
+  src: url("../assets/fonts/CormorantFont/Cormorant-Italic.woff2")
+      format("woff2"),
+    url("../assets/fonts/CormorantFont/Cormorant-Italic.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Cormorant";
+  src: url("../assets/fonts/CormorantFont/Cormorant-Medium.woff2")
+      format("woff2"),
+    url("../assets/fonts/CormorantFont/Cormorant-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Cormorant";
+  src: url("../assets/fonts/CormorantFont/Cormorant-MediumItalic.woff2")
+      format("woff2"),
+    url("../assets/fonts/CormorantFont/Cormorant-MediumItalic.woff")
+      format("woff");
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Cormorant";
+  src: url("../assets/fonts/CormorantFont/Cormorant-LightItalic.woff2")
+      format("woff2"),
+    url("../assets/fonts/CormorantFont/Cormorant-LightItalic.woff")
+      format("woff");
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Cormorant";
+  src: url("../assets/fonts/CormorantFont/Cormorant-Light.woff2")
+      format("woff2"),
+    url("../assets/fonts/CormorantFont/Cormorant-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Cormorant";
+  src: url("../assets/fonts/CormorantFont/Cormorant-SemiBold.woff2")
+      format("woff2"),
+    url("../assets/fonts/CormorantFont/Cormorant-SemiBold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Cormorant";
+  src: url("../assets/fonts/CormorantFont/Cormorant-SemiBoldItalic.woff2")
+      format("woff2"),
+    url("../assets/fonts/CormorantFont/Cormorant-SemiBoldItalic.woff")
+      format("woff");
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Silk Serif";
+  src: url("../assets/fonts/SilkSerifFont/SilkSerif-Bold.woff2") format("woff2"),
+    url("../assets/fonts/SilkSerifFont/SilkSerif-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Silk Serif";
+  src: url("../assets/fonts/SilkSerifFont/SilkSerif-BoldItalic.woff2")
+      format("woff2"),
+    url("../assets/fonts/SilkSerifFont/SilkSerif-BoldItalic.woff")
+      format("woff");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Silk Serif";
+  src: url("../assets/fonts/SilkSerifFont/SilkSerif-Italic.woff2")
+      format("woff2"),
+    url("../assets/fonts/SilkSerifFont/SilkSerif-Italic.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Silk Serif";
+  src: url("../assets/fonts/SilkSerifFont/SilkSerif-SemiBoldItalic.woff2")
+      format("woff2"),
+    url("../assets/fonts/SilkSerifFont/SilkSerif-SemiBoldItalic.woff")
+      format("woff");
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Silk Serif";
+  src: url("../assets/fonts/SilkSerifFont/SilkSerif-Light.woff2")
+      format("woff2"),
+    url("../assets/fonts/SilkSerifFont/SilkSerif-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Silk Serif";
+  src: url("../assets/fonts/SilkSerifFont/SilkSerif-Regular.woff2")
+      format("woff2"),
+    url("../assets/fonts/SilkSerifFont/SilkSerif-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Silk Serif";
+  src: url("../assets/fonts/SilkSerifFont/SilkSerif-MediumItalic.woff2")
+      format("woff2"),
+    url("../assets/fonts/SilkSerifFont/SilkSerif-MediumItalic.woff")
+      format("woff");
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Silk Serif";
+  src: url("../assets/fonts/SilkSerifFont/SilkSerif-LightItalic.woff2")
+      format("woff2"),
+    url("../assets/fonts/SilkSerifFont/SilkSerif-LightItalic.woff")
+      format("woff");
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+hotml,
+body {
+  font-family: "Atyp BL", sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  color: #464646;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+h7 {
+  font-family: "Cormorant", serif;
+}
+
+h1,
+h2,
+h3 {
+  overflow-wrap: break-word;
+  hyphens: manual;
+}
+
+a {
+  color: #454545;
+  text-decoration: none;
+}
+a:hover,
+a:active,
+a:focus {
+  color: #000;
+  text-decoration: none;
+}
+
+/** Límite de anchura máxiam para todo el sitio Web */
+@media screen and (min-width: 1441px) {
+  .max-container {
+    width: 1440px;
+  }
+}
+
+/** Hover primary state */
+.hover-primary {
+  @apply transition-colors duration-200 hover:text-primary focus:text-primary;
+}
+
+.manifest-bg {
+  background: rgb(239, 239, 239);
+  background: linear-gradient(
+    90deg,
+    rgba(239, 239, 239, 1) 0%,
+    rgba(239, 239, 239, 1) 35%,
+    rgba(255, 255, 255, 1) 35%,
+    rgba(255, 255, 255, 1) 100%
+  );
+}
+
+.owl-nav {
+  @apply absolute w-full top-[40%] flex justify-between z-50;
+}
+
+.owl-nav .owl-prev span,
+.owl-nav .owl-next span {
+  @apply text-white text-6xl;
+}
+
+.owl-theme .owl-nav [class*="owl-"]:hover {
+  @apply hover:bg-transparent;
+}
+
+footer {
+  background-image: url("../assets/imgs/footer-background-desktop.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media screen and (max-width: 768px) {
+  .manifest-bg {
+    background: rgb(239, 239, 239);
+    background: linear-gradient(
+      90deg,
+      rgba(239, 239, 239, 1) 0%,
+      rgba(239, 239, 239, 1) 30%,
+      rgba(255, 255, 255, 1) 30%,
+      rgba(255, 255, 255, 1) 100%
+    );
+  }
+
+  footer {
+    background-image: url("../assets/imgs/footer-background-mobile.jpg");
+  }
+}
+
+@tailwind utilities;

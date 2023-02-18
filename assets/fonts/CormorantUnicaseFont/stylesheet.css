@@ -1,0 +1,45 @@
+@font-face {
+    font-family: 'Cormorant Unicase';
+    src: url('CormorantUnicase-Bold.woff2') format('woff2'),
+        url('CormorantUnicase-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Cormorant Unicase';
+    src: url('CormorantUnicase-Light.woff2') format('woff2'),
+        url('CormorantUnicase-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Cormorant Unicase';
+    src: url('CormorantUnicase-Medium.woff2') format('woff2'),
+        url('CormorantUnicase-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Cormorant Unicase';
+    src: url('CormorantUnicase-Semibold.woff2') format('woff2'),
+        url('CormorantUnicase-Semibold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Cormorant Unicase';
+    src: url('CormorantUnicase-Regular.woff2') format('woff2'),
+        url('CormorantUnicase-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
